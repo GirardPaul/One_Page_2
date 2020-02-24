@@ -1,0 +1,119 @@
+.slider{
+    display: flex;
+    width: 100%;
+
+}
+   
+.figure{
+    flex-basis: 100%;
+    margin:0 2rem ;
+    
+}
+
+.figcaption{
+flex-basis:40%;
+align-self: center;
+}
+.fID{
+    display: flex;
+    width: 43rem;
+    height:43rem;
+    border-radius: 100%;
+    border:2.5rem solid #76c38f;
+}
+.figure-link-img{
+    flex-basis: 100%;
+    border-radius: 100%;
+}
+.figure-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.figcaption-title{
+ font-size: 4.6rem;
+ margin-bottom: 2rem;
+}
+.figcaption-text{
+ font-size: 1.2rem;
+ margin-bottom: 3rem;
+}
+.slider .arrow-left{ 
+ align-self: center;
+
+ font-size: 3rem;
+ color: #ffffff;
+ cursor: pointer;
+ margin-left: 1rem;
+}
+.slider .arrow-rigth{ 
+    align-self: center;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 1rem;
+    
+   }
+#one,#two, #three{display: none; visibility: hidden;}
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+#i1:checked ~ #one  ,
+#i2:checked ~ #two  ,
+#i3:checked ~ #three,
+#i4:checked ~ #four ,
+#i5:checked ~ #five 
+{ animation: scroll 2s ease-in-out; display: flex;  width: 100%; visibility: visible;}
+#i1:checked ~ #two  {
+    display: none;
+    visibility: hidden;
+}
+#i1:checked ~ #three  {
+    display: none;
+      visibility: hidden;
+}
+
+#i2:checked ~ #one{
+    display: none;
+      visibility: hidden;
+}
+#i2:checked ~ #three{
+    display: none;
+      visibility: hidden;
+}
+
+#i3:checked ~ #two  {
+    display: none;
+      visibility: hidden;
+}
+#i3:checked ~ #one  {
+    display: none;
+      visibility: hidden;
+}
+
+
+.nav-slide{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-slide .dots{
+    
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	border-radius: 100%;
+	background-color: #76c38f;
+	transition: .4s;
+}
+
+.nav-slide .dots:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+}
+
+	

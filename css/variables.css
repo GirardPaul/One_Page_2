@@ -1,0 +1,23 @@
+:root
+{
+    --primary-color: #76c38f;
+    --secondary-color: #290000;
+    --third-color: #6b6b6b;
+    --fourth-color: #660000;
+    --fiveth-color: #303030;
+    --sixth-color: #2b2b2b;
+    --seventh-color: #222222;
+    --eighth-color: #ffffff;
+    --ninth-color: #666666;
+    --tenth-color: #979797;
+    
+    --default-font-size: 1.6rem;
+    
+    
+    /* // GRID */
+   --grid-width: 114rem;
+   --gutter-vertical: 8rem;
+   --gutter-vertical-small: 6rem;
+   --gutter-horizontal: 6rem;
+
+}

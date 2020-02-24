@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/utile.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div id="nav-background" class="nav-background"></div>
+
+        <div class="container">
+            <div class="row ">
+
+                <nav class="d-flex js-space-between nav">
+                    <div class="Link-toggle">
+
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html" class="logo-title">The Modernist</a>
+                        <p class="logo-description">Free Website Template</p>
+                    </div>
+                    <ul class="list d-flex js-space-between aI-center" id="list">
+                        <li class="list-item"><a href="#" class="list-link btn-green">HOME </a></li>
+                        <li class="list-item"><a href="#s2" class="list-link ">STYLEDEMO</a></li>
+                        <li class="list-item"><a href="#" class="list-link ">FULLWIDTH</a></li>
+                        <li class="list-item"><a href="#" class="list-link ">DROPDOWN</a></li>
+                        <li class="list-item"><a href="#" class="list-link ">PORTOFOLIO</a></li>
+                        <li class="list-item"><a href="#" class="list-link ">GALLERY</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="row relative">
+
+                <input type="radio" id="i1" name="images" checked />
+                <input type="radio" id="i2" name="images" />
+                <input type="radio" id="i3" name="images" />
+
+
+                <div class="slider " id="one">
+                    <label class="next arrow-rigth" for="i3" class="arrow-left">
+                        <img src="images/slider/Left arrow.png" alt="" srcset="">
+                    </label>
+                    <figure class="figure d-flex js-space-between ">
+                        <figcaption class="figcaption d-flex-col">
+                            <h2 class="figcaption-title">Cursus penati saccum nulla1.</h2>
+                            <p class="figcaption-text">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                                dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                                quismodo nulla et feugiat adipiscinia pellentum leo&hellip;</p>
+                            <footer><a href="#" class="btn-green read-link">Read More Here &raquo;</a></footer>
+                        </figcaption>
+                        <div class="fID">
+                            <a href="#popup-1" class="figure-link-img">
+                                <picture>
+
+                                    <source media="(max-width:576px)" srcset="images/slider/1-xs.jpg">
+                                    <source media="(max-width:768px)" srcset="images/slider/1-s.jpg">
+                                    <img src="images/slider/1.jpg" class="figure-img" alt="">
+                            </a>
+
+                            </picture>
+
+                        </div>
+
+                    </figure>
+                    <label class="next arrow-left" for="i2">
+                        <img src="images/slider/Right arrow.png" alt="" srcset="">
+                    </label>
+                </div>
+
+                <div class="slider" id="two">
+                    <label class="next arrow-rigth" for="i1" class="arrow-left">
+                        <img src="images/slider/Left arrow.png" alt="" srcset="">
+                    </label>
+                    <figure class="figure d-flex js-space-between ">
+                        <figcaption class="figcaption d-flex-col">
+                            <h2 class="figcaption-title">Cursus penati saccum nulla2.</h2>
+                            <p class="figcaption-text">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                                dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                                quismodo nulla et feugiat adipiscinia pellentum leo&hellip;</p>
+                            <footer><a href="#" class="btn-green read-link">Read More Here &raquo;</a></footer>
+                        </figcaption>
+                        <div class="fID">
+                            <a href="#popup-2">
+
+                                <picture>
+                                    <source media="(max-width:576px)" srcset="images/slider/2-xs.jpg">
+                                    <source media="(max-width:768px)" srcset="images/slider/2-s.jpg">
+                                    <img src="images/slider/2.jpg" class="figure-img" alt="">
+                            </a>
+
+                            </picture>
+
+                        </div>
+
+                    </figure>
+                    <label class="next arrow-left" for="i3">
+                        <img src="images/slider/Right arrow.png" alt="" srcset="">
+                    </label>
+                </div>
+
+                <div class="slider " id="three">
+                    <label class="next arrow-rigth" for="i2" class="arrow-left">
+                        <img src="images/slider/Left arrow.png" alt="" srcset="">
+                    </label>
+                    <figure class="figure d-flex js-space-between ">
+                        <figcaption class="figcaption d-flex-col">
+                            <h2 class="figcaption-title">Cursus penati saccum nulla3.</h2>
+                            <p class="figcaption-text">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                                dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                                quismodo nulla et feugiat adipiscinia pellentum leo&hellip;</p>
+                            <footer><a href="#" class="btn-green read-link">Read More Here &raquo;</a></footer>
+                        </figcaption>
+                        <div class="fID">
+                            <a href="#popup-3">
+
+                                <picture>
+                                    <source media="(max-width:576px)" srcset="images/slider/3-xs.jpg">
+                                    <source media="(max-width:768px)" srcset="images/slider/3-s.jpg">
+                                    <img src="images/slider/3.jpg" class="figure-img" alt="">
+                            </a>
+
+                            </picture>
+
+
+                        </div>
+
+                    </figure>
+                    <label class="next arrow-left" for="i1">
+                        <img src="images/slider/Right arrow.png" alt="" srcset="">
+                    </label>
+                </div>
+                <div class="nav-slide">
+                    <label for="i1" class="dots" id="dot1"></label>
+                    <label for="i2" class="dots" id="dot2"></label>
+                    <label for="i3" class="dots" id="dot3"></label>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="popup" id="popup-1">
+            <div class="popup-content">
+                <div class="popup-left">
+                    <img src="images/slider/1.jpg" alt=" photo" class="popup-img">
+                </div>
+                <div class="popup-right">
+                    <a href="#one" class="popup-close">&times;</a>
+                    <h2 class="mid-title">Cursus penati saccum nulla1.</h2>
+
+                    <p class="popup-text">
+                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                        dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                        quismodo nulla et feugiat adipiscinia pellentum leo&hellip;
+                    </p>
+                    <div class="popup-btn">
+                        <a href="#" class="btn btn--green">Read More Here &raquo;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup-2">
+            <div class="popup-content">
+                <div class="popup-left">
+                    <img src="images/slider/2.jpg" alt=" photo" class="popup-img">
+                </div>
+                <div class="popup-right">
+                    <a href="#one" class="popup-close">&times;</a>
+                    <h2 class="mid-title">Cursus penati saccum nulla1.</h2>
+
+                    <p class="popup-text">
+                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                        dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                        quismodo nulla et feugiat adipiscinia pellentum leo&hellip;
+                    </p>
+                    <div class="popup-btn">
+                        <a href="#" class="btn btn--green">Read More Here &raquo;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup-3">
+            <div class="popup-content">
+                <div class="popup-left">
+                    <img src="images/slider/3.jpg" alt=" photo" class="popup-img">
+                </div>
+                <div class="popup-right">
+                    <a href="#one" class="popup-close">&times;</a>
+                    <h2 class="mid-title">Cursus penati saccum nulla1.</h2>
+
+                    <p class="popup-text">
+                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas
+                        dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum
+                        quismodo nulla et feugiat adipiscinia pellentum leo&hellip;
+                    </p>
+                    <div class="popup-btn">
+                        <a href="#" class="btn btn--green">Read More Here &raquo;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="services" id="services">
+
+        <div class="container">
+
+            <div class="row js-space-between ">
+
+                <div class="card-flex">
+
+                    <div class="card">
+
+                        <picture>
+
+
+                            <source media="(max-width:576px)" srcset="images/git-xs.png">
+                            <source media="(max-width:768px)" srcset="images/git-s.png">
+                            <img srcset="images/git.png" src="images/git.png" alt="git">
+
+                            </picture>
+                            <h2>SERVICE TITLE</h2>
+                            <p>Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <picture>
+
+
+                            <source media="(max-width:576px)" srcset="images/git-xs.png">
+                            <source media="(max-width:768px)" srcset="images/git-s.png">
+                            <img srcset="images/git.png" src="images/git.png" alt="git">
+
+                        </picture>
+
+                        
+                            <h2>SERVICE TITLE</h2>
+                            <p>Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                      
+
+                    </div>
+
+
+                    <div class="card">
+                        <picture>
+
+
+                            <source media="(max-width:576px)" srcset="images/git-xs.png">
+                            <source media="(max-width:768px)" srcset="images/git-s.png">
+                            <img srcset="images/git.png" src="images/git.png" alt="git">
+
+                        </picture>
+
+
+                      
+                            <h2>SERVICE TITLE</h2>
+                            <p>Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                      
+                        </div>
+
+
+                        <div class="card">
+
+                            <picture>
+
+
+                                <source media="(max-width:576px)" srcset="images/git-xs.png">
+                            <source media="(max-width:768px)" srcset="images/git-s.png">
+                                <img srcset="images/git.png" src="images/git.png" alt="git">
+
+                            </picture>
+                           
+                                <h2>SERVICE TITLE</h2>
+                                <p>Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue
+                                </p>
+                            
+                        </div>
+
+                    </div>
+            </div>
+
+                    <div class="row">
+
+                        <div class="work-center">
+
+                            <div class="work">
+
+                                <H2 class="l-work">LATEST WORK</H2>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="row containt-items">
+
+                        <div class="lorem-items">
+
+                            <div class="items">
+
+                                <img src="images/html.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/css.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/js.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="lorem-items">
+
+                            <div class="items">
+
+                                <img src="images/php.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+
+                            </div>
+
+
+                            <div class="items">
+
+                                <img src="images/sql.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+
+                            </div>
+                            <div class="items">
+
+                                <img src="images/angular.png" alt="fond" width="290" height="190">
+
+                                <div class="text">
+                                    <h3>LOREM IPSUM DOLOR</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="f-dimension1 row jc-space-between">
+                <div class="centrage1 jc-space-between">
+
+                    <div class="items-footer blog px13">
+                        <h2>From The Blog</h2>
+                        <ul>
+                            <li><span class="green px13">Post Title</span></li>
+                            <li class="px10"><span class="green">Admin</span><span
+                                    class="domaine">,domainname.com</span></li>
+                            <li class="px10">Friday,6th April 2000</li>
+                            <li class="px13">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+                                elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non
+                                tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.</li>
+                            <li><span class="green px13">Read More &raquo;</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="items-footer links px13">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>&raquo; <span class="green">Lorem ipsum dolor sit</span></li>
+                            <li>&raquo; <span class="green">Amet consectetur</span></li>
+                            <li>&raquo; <span class="green">Praesent vel sem id</span></li>
+                            <li>&raquo; <span class="green">Curabitur hendrerit est</span></li>
+                            <li>&raquo; <span class="green">Aliquam eget erat nec sapien</span></li>
+                            <li>&raquo; <span class="green">Crad id augue nunc</span></li>
+                            <li>&raquo; <span class="green">Sed a nulla urna</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="items-footer tweets px13">
+                        <h2>Latest Tweets</h2>
+                        <p class="tweet1"><span class="green">@namehere</span> Justoid nonummy laoreet
+                            phasellent penatoque in antesque pellus elis eget tincidut. Nequatdui laorem justo a non
+                            tellus laoremut vitae doloreet 1 day ago</p>
+                        <p class="tweet2"><span class="green">@namehere</span> Justoid nonummy laoreet
+                            phasellent penatoque in antesque pellus elis eget tincidut. Nequatdui laorem justo a non
+                            tellus laoremut vitae doloreet 1 day ago</p>
+                    </div>
+
+                    <div class="items-footer contact px13">
+                        <h2>Contact Us</h2>
+
+
+
+
+                        <form id="form">
+
+                            <input class="petitecase colorformulaire placeholder" type="text" placeholder="Full Name"
+                                name="nom" id="nom" oninput="validation()" />
+
+                            <div class="msg-name" id="msg-name">
+
+                                <h3>Une erreur a été détectée</h3>
+
+                            </div>
+
+                            <input class="petitecase colorformulaire placeholder" type="email"
+                                placeholder="Email Address" name="email" id="email" oninput="validationEmail()" />
+
+                            <div class="msg-email" id="msg-email">
+
+                                <h3>Une erreur a été détectée</h3>
+
+                            </div>
+
+
+                            <input class="petitecase colorformulaire placeholder" type="text" placeholder="Subject"
+                                name="subject" id="subject" oninput="validationSubject()" />
+
+                            <div class="msg-subject" id="msg-subject">
+
+                                <h3>Une erreur a été détectée</h3>
+
+                            </div>
+
+                            <textarea type="text" class="grossecase colorformulaire placeholder" name="message"
+                                placeholder="Message" id="message" oninput="validationS()"></textarea>
+
+                            <div class="msg-message" id="msg-message">
+
+                                <h3>Une erreur a été détectée</h3>
+
+                            </div>
+
+
+                            <input class="submit colorformulaire" type="submit" value="SUBMIT" id="envoi" />
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="bordure">
+            <div class="copyright px13">
+                <div class="f-dimension2 container">
+                    <div class="centrage2 row jc-space-between">
+                        <p>Copyright &copy; 2013 Domain Name - All Rights Reserved </p>
+                        <p>Template by OS Templates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

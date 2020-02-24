@@ -1,0 +1,47 @@
+
+.container-large {
+
+    width: 100%;
+    margin: 0;
+ 
+}
+
+.container {
+    max-width: 117rem;
+    width: 85%;
+    margin: 0 auto;
+  
+}
+.row {
+    width: 95%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+}
+section
+{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.js-space-between{
+    justify-content: space-between;
+}
+.js-flex-end{
+    justify-content: flex-end;
+}
+.js-center{
+    justify-content: center;
+}
+.aI-center{
+    align-items: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}

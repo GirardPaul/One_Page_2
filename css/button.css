@@ -1,0 +1,12 @@
+.btn-green
+{
+    color:#FFFFFF;
+    background-color:#76C38F;
+    border-radius:1.2rem ;
+}
+.read-link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.3rem;
+    padding: 1.2rem 1.8rem;
+}

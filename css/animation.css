@@ -1,0 +1,156 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes fromLeft{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fromRight{
+    0%{
+        transform: translateX(70px);
+        opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+    @keyframes frombottomTop{
+      0%{
+        transform: translateY(600px);
+        opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    }
+    @keyframes floatContact {
+        0% {
+            
+            transform: translateX(0);
+        }
+    
+        50% {
+            transform: translateX(-1rem);
+        }
+    
+        100% {
+           
+            transform: translateX(0);
+        }
+    }
+    @keyframes color_change {
+        from { color: var(--color-p-s); }
+        to { color: var(--color-h-light); }
+    }
+    @keyframes scale
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes test
+{
+    0%
+    {
+        border: 2px solid red;
+        color: red;
+        transform: translateX(250px);
+    }
+    100%
+    {
+        border: 2px solid red;
+        color: red;
+        transform: translateX(0);
+    }
+}
+.lorem-items:first-of-type
+{
+    animation-duration: 5s;
+    animation-name: second;
+}
+@keyframes second
+{
+    from {
+        transform: translateX(700px);
+      }
+    
+      to {
+        transform: translateX(0);
+      }
+}
+.lorem-items:last-of-type
+{
+    margin-top: 3rem;
+    
+    animation-duration: 5s;
+    animation-name: first;
+}
+@keyframes first
+{
+    from {
+       transform: translateX(-700px);
+      }
+    
+      to {
+        transform: translateX(0);
+
+      }
+}
+@keyframes scroll{
+	0%{	opacity:.1;}
+	100%{opacity:1;}
+}	

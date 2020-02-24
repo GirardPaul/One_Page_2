@@ -1,0 +1,28 @@
+/* *,
+*::before,
+*::after 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+body, h1, h2, h3, div, ul, p, li, a, input
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+a
+{
+    text-decoration: none;
+}

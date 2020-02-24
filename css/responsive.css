@@ -1,0 +1,164 @@
+@media only screen and (max-width: 62em)
+{
+    html {
+        font-size: 50%;
+        
+    }
+    .centrage1{
+        flex-wrap: wrap;
+    }
+                
+    .items-footer{
+        width: 40%;
+    }
+    
+}
+
+@media only screen and (max-width: 70em)
+{
+    .lorem-items{
+        justify-content: center;
+        
+    }
+    .items{
+        margin:1rem;
+    }
+}
+
+@media only screen and (max-width: 48em)
+{
+    .nav-background1{
+        display: inline-block;
+    }
+    .lorem-items{
+        justify-content: center;
+        
+    }
+    .card{
+        margin: 1rem;
+    }
+    .items{
+        margin:1rem;
+    }
+    html{
+        font-size: 40%;
+    }
+    .container{
+        width: 100%;
+    }
+    .list{
+        display: none;
+    }
+    .list-item{
+        margin: 1rem 0;
+    }
+    .Link-toggle{
+        display: inline;
+      position: absolute;
+      top: 1rem;
+      right: 1rem ;
+      font-size: 1.6rem;
+        cursor: pointer;
+    }
+    .Navbar-ToggleShow{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-end;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding-top: 2rem;
+        
+    }
+
+ .card
+{
+    margin-top: 3rem;
+}
+.card > h2{
+    padding: 1rem;
+}
+.work{
+    left: 26%;
+}
+.centrage1{
+    flex-wrap: wrap;
+}
+            
+.items-footer{
+    width: 40%;
+} 
+
+@keyframes scale
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes second
+{
+    from {
+        transform: translateX(700px);
+      }
+    
+      to {
+        transform: translateX(0);
+      }
+}
+@keyframes first
+{
+    from {
+       transform: translateX(-700px);
+      }
+    
+      to {
+        transform: translateX(0);
+
+      }
+}
+}
+@media only screen and (max-width: 36em)
+{
+    html {
+        font-size: 35%;
+        
+    }
+    .card
+    {
+        width: 47%;
+    }
+    .card-flex{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .items{
+        width: 100%;
+    }
+    .items>img{
+        width: 100%;
+        height: 100%;
+    }
+                
+    .items-footer{
+        width: 100%;
+    }
+    .centrage1{
+        justify-content: center;
+    }
+    .card>p{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 28em)
+{
+    html{
+        font-size: 30%;
+    }
+}

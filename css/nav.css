@@ -1,0 +1,50 @@
+.nav{
+    margin: 6rem 0;
+    flex-basis: 100%;
+
+}
+.logo-title{
+    font-size: 2.8rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo-description{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.list{
+    list-style: none;
+}
+.list-item{
+   margin: 0 2rem;
+   font-size: 1.6rem;
+}
+.list-item:last-of-type
+{
+    margin: 0;
+}
+.list-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1rem;
+   }
+    
+.Link-toggle{
+    display: none;
+    z-index: 2000;
+}
+.Navbar-ToggleShow{
+    display: flex;
+}
+.nav-background1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background-color: #555555;
+    opacity: 0.8;
+    z-index: 4;
+   
+}

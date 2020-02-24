@@ -1,0 +1,32 @@
+.header
+{
+    background-color: #290000;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 5rem;
+}
+.f,.s{
+    justify-content: space-between;
+    margin-bottom: 5rem ;
+}
+.scal{
+   transform: scale(1);
+}
+#fA,#sA{
+    justify-content: space-between;
+    margin-bottom: 5rem ;
+}
+.fA{
+    opacity: 1;
+    animation-name: fromLeft;
+    animation-duration: 2s;
+}
+.sA{
+    opacity: 1;
+    animation-name: fromRight;
+    animation-duration: 2s;
+}
+#s1 ,#s2,#s3{
+    font-size: 1.6rem;
+   
+}
